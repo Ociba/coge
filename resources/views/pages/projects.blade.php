@@ -63,9 +63,9 @@
                     <div class="edm-header-menu-block-wrap">
                         <div class="edm-container">
                             <div class="site-branding">
-                                <div class="site-logo">
-                                    <a href="index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="296" height="90" src="{{asset('images/education-wordpress-theme.png')}}" class="custom-logo" alt="Education Master" itemprop="logo" /></a>				
-                                </div>
+                            <div class="site-logo">
+                            <a href="#" class="custom-logo-link" rel="home" itemprop="url"><img style="border-radius:50%; width:70px; height:70px;" src="{{asset('img/llogo.jpg')}}" class="custom-logo" alt="Education Master" itemprop="logo" /></a>				
+                           </div>
                                 <!-- .site-logo -->
                                 <p class="site-title"><a href="index.html"
                                     rel="home">Education Master</a></p>
