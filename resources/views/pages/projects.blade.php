@@ -32,31 +32,7 @@
         <div id="page" class="site">
          @include('frontlayouts.sliding-text')
             <!-- .edm-notice-wrapper -->
-            <div class="edm-top-header-wrap">
-                <div class="edm-container">
-                    <div class="edm-top-left-section-wrapper">
-                        <div class="date-section">Tuesday, November 10, 2020</div>
-                        <nav id="top-navigation" class="top-navigation" role="navigation">
-                            <div class="menu-top-menu-container">
-                                <ul id="top-menu" class="menu">
-                                    <li id="menu-item-56" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56"><a href="https://themeegg.com/contact/">Contact Us</a></li>
-                                    <li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57"><a href="http://docs.themeegg.com/">Docs</a></li>
-                                    <li id="menu-item-58" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="https://themeegg.com/support-forum/">Support</a></li>
-                                    <li id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a href="https://themeegg.com/themes/">Themes</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <!-- #site-navigation -->
-                    </div>
-                    <!-- .edm-top-left-section-wrapper -->
-                    <div class="edm-top-right-section-wrapper">
-                        <div class="edm-social-icons-wrapper"><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-facebook-f"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-twitter"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-youtube"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-google"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-instagram"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-pinterest"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-linkedin"></i></a></span></div>
-                        <!-- .edm-social-icons-wrapper -->		
-                    </div>
-                    <!-- .edm-top-right-section-wrapper -->
-                </div>
-                <!-- .edm-container -->
-            </div>
+            @include('frontlayouts.topbar')
             <!-- .edm-top-header-wrap -->
             <header id="masthead" class="site-header default static" role="banner">
                 <div id="edm-menu-wrap" class="edm-header-menu-wrapper">
@@ -150,7 +126,7 @@
                                                         <h3 class="edm-post-title small-size"><a
                                                             href="entrance-preparation-tips/index.html">Entrance preparation tips</a></h3>
                                                         <div class="edm-post-meta"><span class="posted-on"> <a href="entrance-preparation-tips/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:54:10+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="author/education_master/index.html">education_master</a></span></span></div>
-                                                        <div class="edm-post-excerpt">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...</div>
+                                                        <div class="edm-post-excerpt" style="text-align: justify;">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...</div>
                                                     </div>
                                                     <!-- .edm-post-content -->
                                                 </div>
@@ -167,7 +143,7 @@
                                                         <h3 class="edm-post-title small-size"><a
                                                             href="mechanical-engineering/index.html">Mechanical Engineering</a></h3>
                                                         <div class="edm-post-meta"><span class="posted-on"> <a href="mechanical-engineering/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:53:31+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="author/education_master/index.html">education_master</a></span></span></div>
-                                                        <div class="edm-post-excerpt">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...</div>
+                                                        <div class="edm-post-excerpt" style="text-align: justify;">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...</div>
                                                     </div>
                                                     <!-- .edm-post-content -->
                                                 </div>
@@ -184,7 +160,7 @@
                                                         <h3 class="edm-post-title small-size"><a
                                                             href="new-admission-information/index.html">New Admission information</a></h3>
                                                         <div class="edm-post-meta"><span class="posted-on"> <a href="new-admission-information/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="author/education_master/index.html">education_master</a></span></span></div>
-                                                        <div class="edm-post-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but...</div>
+                                                        <div class="edm-post-excerpt" style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but...</div>
                                                     </div>
                                                     <!-- .edm-post-content -->
                                                 </div>
@@ -201,7 +177,7 @@
                                                         <h3 class="edm-post-title small-size"><a
                                                             href="sample-post-with-threaded-comments/index.html">Sample Post With Threaded Comments</a></h3>
                                                         <div class="edm-post-meta"><span class="posted-on"> <a href="sample-post-with-threaded-comments/index.html" rel="bookmark"><time class="entry-date published" datetime="2018-02-09T11:04:32+00:00">February 9, 2018</time><time class="updated" datetime="2018-02-09T11:20:30+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="author/education_master/index.html">education_master</a></span></span></div>
-                                                        <div class="edm-post-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but...</div>
+                                                        <div class="edm-post-excerpt" style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but...</div>
                                                     </div>
                                                     <!-- .edm-post-content -->
                                                 </div>

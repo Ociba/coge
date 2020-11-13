@@ -56,7 +56,7 @@
                                     <!-- .entry-meta -->
                                 </header>
                                 <!-- .entry-header -->
-                                <div class="entry-content">
+                                <div class="entry-content" style="text-align: justify;">
                                     <h4>ABOUT SERVICE</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
                                     <h4>HOW TO APPLY FOR YOUR SERVICE</h4>
@@ -128,12 +128,6 @@
                     <aside id="secondary" class="widget-area" role="complementary">
                         
                         @include('frontlayouts.posts')
-                        <section id="archives-2" class="widget widget_archive">
-                            <h4 class="widget-title">Archives</h4>
-                            <ul>
-                                <li><a href='../2018/02/index.html'>February 2018</a></li>
-                            </ul>
-                        </section>
                         @include('frontlayouts.categories')
                         @include('frontlayouts.comment-form')
                     </aside>

@@ -41,31 +41,7 @@
     <body class="page-template-default page page-id-45 wp-custom-logo tribe-no-js right-sidebar edm_fullwidth_layout">
     @include('frontlayouts.sliding-text')
         <div id="page" class="site">
-            <div class="edm-top-header-wrap">
-                <div class="edm-container">
-                    <div class="edm-top-left-section-wrapper">
-                        <div class="date-section">Tuesday, November 10, 2020</div>
-                        <nav id="top-navigation" class="top-navigation" role="navigation">
-                            <div class="menu-top-menu-container">
-                                <ul id="top-menu" class="menu">
-                                    <li id="menu-item-56" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56"><a href="https://themeegg.com/contact/">Contact Us</a></li>
-                                    <li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57"><a href="http://docs.themeegg.com/">Docs</a></li>
-                                    <li id="menu-item-58" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="https://themeegg.com/support-forum/">Support</a></li>
-                                    <li id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a href="https://themeegg.com/themes/">Themes</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <!-- #site-navigation -->
-                    </div>
-                    <!-- .edm-top-left-section-wrapper -->
-                    <div class="edm-top-right-section-wrapper">
-                        <div class="edm-social-icons-wrapper"><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-facebook-f"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-twitter"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-youtube"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-google"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-instagram"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-pinterest"></i></a></span><span class="social-link"><a href="https://facebook.com/themeegg" target="_blank"><i class="fa fa-linkedin"></i></a></span></div>
-                        <!-- .edm-social-icons-wrapper -->		
-                    </div>
-                    <!-- .edm-top-right-section-wrapper -->
-                </div>
-                <!-- .edm-container -->
-            </div>
+          @include('frontlayouts.topbar')
             <!-- .edm-top-header-wrap -->
             <header id="masthead" class="site-header default" role="banner">
                 <div id="edm-menu-wrap" class="edm-header-menu-wrapper">
@@ -151,7 +127,7 @@
                                             <h2 class="entry-title"><a href="../entrance-preparation-tips/index.html" rel="bookmark">COGO  Construction Company (U) Limited</a></h2>
                                         </header>
                                         <!-- .entry-header -->
-                                        <div class="entry-content">
+                                        <div class="entry-content" style="text-align: justify;">
                                             <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ABOUT COURSE Lorem [&hellip;]</p>
                                             <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ABOUT COURSE Lorem [&hellip;]</p>
                                             
