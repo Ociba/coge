@@ -42,7 +42,7 @@
             @include('frontlayouts.sliding-text')
             @include('frontlayouts.topbar')
             @include('frontlayouts.menu')
-            <div id="content" class="site-content">
+            <div id="content" class="site-content" style="">
                 <div class="edm-container">
                         <div id="top-footer" class="footer-widgets-wrapper footer_column_four edm-clearfix">
                             <div class="edm-container">

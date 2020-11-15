@@ -44,7 +44,7 @@
             @include('frontlayouts.menu')
             <div id="content" class="site-content">
                 <section id="meta-2" class="widget widget_meta">
-                    <h4 class="widget-title">Comments</h4>
+                    <h4 style="text-align:center;">Comments</h4>
                     <div id="comments" class="comments-area">
                         <div id="respond" class="comment-respond">
                             <h3 id="reply-title" class="comment-reply-title"><small><a rel="nofollow" id="cancel-comment-reply-link" href="index.html#respond" style="display:none;">Cancel reply</a></small></h3>

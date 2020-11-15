@@ -40,6 +40,7 @@
     </head>
     <body class="post-template-default single single-post postid-73 single-format-standard wp-custom-logo tribe-no-js right-sidebar edm_fullwidth_layout">
         <div id="page" class="site">
+            @include('frontlayouts.sliding-text')
             @include('frontlayouts.topbar')
             @include('frontlayouts.menu')
             <div id="content" class="site-content">

@@ -44,7 +44,7 @@
             @include('frontlayouts.menu')
             <div id="content" class="site-content">
                 <div class="edm-container">
-                    <div id="primary" class="content-area">
+                    <div id="primary" class="content-area" style="margin-top:5px;">
                         <main id="main" class="site-main" role="main">
                             <article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
                                 <div class="edm-article-thumb">
