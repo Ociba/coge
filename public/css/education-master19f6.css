@@ -2467,6 +2467,8 @@ body.fullwidth-layout #page {
   padding: 12px 0;
   position: fixed;
   margin-top: 33px;
+  display: block;
+  float : none;
   top: 0;
   width: 100%;
   left: 3;
