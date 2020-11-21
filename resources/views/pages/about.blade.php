@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="https://gmpg.org/xfn/11">
-        <title>COGO Construction Company (U) Limitedr</title>
+        @include('frontlayouts.title')
         <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
         <link rel='dns-prefetch' href='http://s.w.org/' />
         <link rel="alternate" type="application/rss+xml" title="Education Master &raquo; Feed" href="../feed/index.html" />
@@ -45,11 +45,11 @@
           @include('frontlayouts.menu')
             <div id="content" class="site-content">
                 <div class="edm-container">
+                <h1 class="entry-title" style="margin-top: 20px; text-align:center;">About Us</h1>
                     <div id="primary" class="content-area">
                         <main id="main" class="site-main" role="main">
                             <article id="post-45" class="post-45 page type-page status-publish hentry">
                                 <header class="entry-header">
-                                    <h1 class="entry-title">About Us</h1>
                                     <article id="post-75" class="post-75 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-post tag-entrance tag-example tag-post">
                                         <div class="edm-article-thumb">
                                         <img width="960" style="height: 350px;" src="{{asset('img/apartment.jpg')}}" class="attachment-full size-full wp-post-image" alt="" >

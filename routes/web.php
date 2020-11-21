@@ -32,4 +32,7 @@ Route::get('/blog', function (){ return view('pages.blog');});
 Route::get('contact', function (){ return view('pages.contact');});
 Route::get('/career', function (){ return view('pages.career');});
 Route::get('/branches', function (){ return view('pages.branches');});
+Route::get('/services', function (){ return view('pages.services');});
+Route::get('/post', function (){ return view('pages.post');});
+Route::get('/materials', function (){ return view('pages.materials');});
 

@@ -10,6 +10,7 @@
                             <h4 class="widget-title">Location</h4>
                             <div id="calendar_wrap" class="calendar_wrap" style="text-align:center;">
                                 COGE CONSTRUCTION COMPANY (U) LTD
+                                <p>HEAD OFFICE</p>
                                 <p>Plot 3-5 Old Mbale Road <br>Soroti Uganda</p>
                                 <p>cogeconstructioncompanyult@yahoo.com</p>
                                 <p>+256 773 207459 | +256 754 155264</p>

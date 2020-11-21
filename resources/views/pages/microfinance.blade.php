@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="https://gmpg.org/xfn/11">
-        <title>Construction &#8211; Education Master</title>
+        @include('frontlayouts.title')
         <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
         <link rel='dns-prefetch' href='http://s.w.org/' />
         <link rel="alternate" type="application/rss+xml" title="Education Master &raquo; Feed" href="../feed/index.html" />
@@ -82,7 +82,7 @@
                                         <div class="edm-post-content">
                                             <h3 class="edm-post-title small-size"><a href="#">Loans</a></h3>
                                             <div class="edm-post-meta">
-                                                <span class="byline">  <span class="author vcard"><a class="url fn n" href="../author/education_master/index.html">Work Efficiency is Our Result</a></span></span>						
+                                                <span class="byline">  <span class="author vcard"><a class="url fn n" href="#">Work Efficiency is Our Result</a></span></span>						
                                             </div>
                                         </div>
                                         <!-- .edm-post-content -->
@@ -97,7 +97,7 @@
                                         <div class="edm-post-content">
                                             <h3 class="edm-post-title small-size"><a href="#">Savings</a></h3>
                                             <div class="edm-post-meta">
-                                                <span class="byline">  <span class="author vcard"><a class="url fn n" href="../author/education_master/index.html">Work Efficiency is Our Result</a></span></span>						
+                                                <span class="byline">  <span class="author vcard"><a class="url fn n" href="#">Work Efficiency is Our Result</a></span></span>						
                                             </div>
                                         </div>
                                         <!-- .edm-post-content -->
@@ -112,7 +112,7 @@
                                         <div class="edm-post-content">
                                             <h3 class="edm-post-title small-size"><a href="#">Deposits</a></h3>
                                             <div class="edm-post-meta">
-                                                <span class="byline">  <span class="author vcard"><a class="url fn n" href="../author/education_master/index.html">Work Efficiency is Our Result</a></span></span>						
+                                                <span class="byline">  <span class="author vcard"><a class="url fn n" href="#">Work Efficiency is Our Result</a></span></span>						
                                             </div>
                                         </div>
                                         <!-- .edm-post-content -->

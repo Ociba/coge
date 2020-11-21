@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="https://gmpg.org/xfn/11">
-        <title>Construction &#8211; Education Master</title>
+        @include('frontlayouts.title')
         <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
         <link rel='dns-prefetch' href='http://s.w.org/' />
         <link rel="alternate" type="application/rss+xml" title="Education Master &raquo; Feed" href="../feed/index.html" />

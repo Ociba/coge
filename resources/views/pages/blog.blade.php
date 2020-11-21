@@ -6,8 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="profile" href="https://gmpg.org/xfn/11">
-        <title>Construction &#8211; Education Master</title>
+        @include('frontlayouts.title')
         <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
         <link rel='dns-prefetch' href='http://s.w.org/' />
         <link rel="alternate" type="application/rss+xml" title="Education Master &raquo; Feed" href="../feed/index.html" />
@@ -42,27 +41,29 @@
             @include('frontlayouts.sliding-text')
             @include('frontlayouts.topbar')
             @include('frontlayouts.menu')
-            <div id="content" class="site-content" style="">
+            <div id="content" class="site-content">
                 <div class="edm-container">
                         <div id="top-footer" class="footer-widgets-wrapper footer_column_four edm-clearfix">
                             <div class="edm-container">
+                            <h4 style="text-align:center; margin-top:30px;">Blog</h4>
                                 <div class="footer-widgets-area edm-clearfix">
                                     <div class="edm-footer-widget-wrapper edm-column-wrapper edm-clearfix">
                                         <div class="edm-footer-widget wow fadeInLeft" data-wow-duration="0.5s">
                                         </div>
                                         <div class="edm-footer-widget wow fadeInLeft" data-woww-duration="1s">
+                                        
                                         <article id="post-68" class="post-68 post type-post status-publish format-standard has-post-thumbnail hentry category-notices">
                                 <div class="edm-article-thumb">
                                     <img width="960" height="640" src="{{asset('img/apartment.jpg')}}" class="attachment-full size-full wp-post-image" alt="" sizes="(max-width: 960px) 100vw, 960px" />	
                                 </div>
                                 <!-- .edm-article-thumb -->
-                                <header class="entry-header">
-                                    <h2 class="entry-title"><a href="../new-admission-information/index.html" rel="bookmark">Blog</a></h2>
+                                <header class="entry-header" style="text-align:center;">
+                                    <h2 class="entry-title"><a href="#" rel="bookmark">Blog</a></h2>
                                     <div class="post-cats-list">
-                                        <span class="category-button edm-cat-6"><a href="../category/notices/index.html">notices</a></span>
+                                        <span class="category-button edm-cat-6"><a href="#">notices</a></span>
                                     </div>
                                     <div class="entry-meta">
-                                        <span class="posted-on"> <a href="../new-admission-information/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="../author/education_master/index.html">education_master</a></span></span><span class="comments-link"><a href="../new-admission-information/index.html#respond">Leave a Comment<span class="screen-reader-text"> on Blog</span></a></span>				
+                                        <span class="posted-on"> <a href="#" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="#">Coge</a></span></span><span class="comments-link"><a href="##respond">Leave a Comment<span class="screen-reader-text"> on Blog</span></a></span>				
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
@@ -82,13 +83,13 @@
                                     <img width="960" height="640" src="{{asset('img/apartment.jpg')}}" class="attachment-full size-full wp-post-image" alt="" sizes="(max-width: 960px) 100vw, 960px" />	
                                 </div>
                                 <!-- .edm-article-thumb -->
-                                <header class="entry-header">
-                                    <h2 class="entry-title"><a href="../new-admission-information/index.html" rel="bookmark">Blog</a></h2>
+                                <header class="entry-header" style="text-align:center;">
+                                    <h2 class="entry-title"><a href="#" rel="bookmark">Blog</a></h2>
                                     <div class="post-cats-list">
-                                        <span class="category-button edm-cat-6"><a href="../category/notices/index.html">notices</a></span>
+                                        <span class="category-button edm-cat-6"><a href="#">notices</a></span>
                                     </div>
                                     <div class="entry-meta">
-                                        <span class="posted-on"> <a href="../new-admission-information/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="../author/education_master/index.html">education_master</a></span></span><span class="comments-link"><a href="../new-admission-information/index.html#respond">Leave a Comment<span class="screen-reader-text"> on Blog</span></a></span>				
+                                        <span class="posted-on"> <a href="#" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="#">Coge</a></span></span><span class="comments-link"><a href="##respond">Leave a Comment<span class="screen-reader-text"> on Blog</span></a></span>				
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
@@ -108,13 +109,13 @@
                                     <img width="960" height="640" src="{{asset('img/apartment.jpg')}}" class="attachment-full size-full wp-post-image" alt="" sizes="(max-width: 960px) 100vw, 960px" />	
                                 </div>
                                 <!-- .edm-article-thumb -->
-                                <header class="entry-header">
-                                    <h2 class="entry-title"><a href="../new-admission-information/index.html" rel="bookmark">Blog</a></h2>
+                                <header class="entry-header" style="text-align:center;">
+                                    <h2 class="entry-title"><a href="#" rel="bookmark">Blog</a></h2>
                                     <div class="post-cats-list">
-                                        <span class="category-button edm-cat-6"><a href="../category/notices/index.html">notices</a></span>
+                                        <span class="category-button edm-cat-6"><a href="#">notices</a></span>
                                     </div>
                                     <div class="entry-meta">
-                                        <span class="posted-on"> <a href="../new-admission-information/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="../author/education_master/index.html">education_master</a></span></span><span class="comments-link"><a href="../new-admission-information/index.html#respond">Leave a Comment<span class="screen-reader-text"> on Blog</span></a></span>				
+                                        <span class="posted-on"> <a href="#" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="#">Coge</a></span></span><span class="comments-link"><a href="##respond">Leave a Comment<span class="screen-reader-text"> on Blog</span></a></span>				
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
@@ -134,13 +135,13 @@
                                     <img width="960" height="640" src="{{asset('img/apartment.jpg')}}" class="attachment-full size-full wp-post-image" alt="" sizes="(max-width: 960px) 100vw, 960px" />	
                                 </div>
                                 <!-- .edm-article-thumb -->
-                                <header class="entry-header">
-                                    <h2 class="entry-title"><a href="../new-admission-information/index.html" rel="bookmark">Blog</a></h2>
+                                <header class="entry-header" style="text-align:center;">
+                                    <h2 class="entry-title"><a href="#" rel="bookmark">Blog</a></h2>
                                     <div class="post-cats-list">
-                                        <span class="category-button edm-cat-6"><a href="../category/notices/index.html">notices</a></span>
+                                        <span class="category-button edm-cat-6"><a href="#">notices</a></span>
                                     </div>
                                     <div class="entry-meta">
-                                        <span class="posted-on"> <a href="../new-admission-information/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="../author/education_master/index.html">education_master</a></span></span><span class="comments-link"><a href="../new-admission-information/index.html#respond">Leave a Comment<span class="screen-reader-text"> on Blog</span></a></span>				
+                                        <span class="posted-on"> <a href="#" rel="bookmark"><time class="entry-date published updated" datetime="2018-02-09T11:21:44+00:00">February 9, 2018</time></a></span><span class="byline">  <span class="author vcard"><a class="url fn n" href="#">Coge</a></span></span><span class="comments-link"><a href="##respond">Leave a Comment<span class="screen-reader-text"> on Blog</span></a></span>				
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>

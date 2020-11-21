@@ -6,7 +6,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="profile" href="https://gmpg.org/xfn/11">
         @include('frontlayouts.title')
         <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
         <link rel='dns-prefetch' href='http://s.w.org/' />
@@ -43,16 +42,50 @@
             @include('frontlayouts.topbar')
             @include('frontlayouts.menu')
             <div id="content" class="site-content">
-                <section id="meta-2" class="widget widget_meta" style="margin-top:20px;">
-                    <h4 style="text-align:center;">Comments</h4>
-                    <div id="comments" class="comments-area">
-                        <div id="respond" class="comment-respond">
-                            <h3 id="reply-title" class="comment-reply-title"><small><a rel="nofollow" id="cancel-comment-reply-link" href="index.html#respond" style="display:none;">Cancel reply</a></small></h3>
-                            orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                <div class="edm-container">
+                        <div id="top-footer" class="footer-widgets-wrapper footer_column_four edm-clearfix">
+                        <h4 style="text-align:center; margin-top:10px;">Blog</h4>
+                        <h3 style="text-align:center;">Please if you have these material (s) available within the Disricts within our branches.<br> Fill Form Below</h3>
+                            <div class="edm-container">
+                                <div class="footer-widgets-area edm-clearfix">
+                                    <div class="edm-footer-widget-wrapper edm-column-wrapper edm-clearfix">
+                                        <div class="edm-footer-widget wow fadeInLeft" data-wow-duration="0.5s">
+                                        </div>
+                                        <div id="comments" class="comments-area">
+                                <ol class="comment-list">
+                                    <li id="comment-1" class="comment even thread-even depth-1">
+                                    </li>
+                                    <!-- #comment-## -->
+                                </ol>
+                                <!-- .comment-list -->
+                                <div id="respond" class="comment-respond">
+                                    <h3 id="reply-title" class="comment-reply-title" style="text-align:center;">Send Us Your Details <small><a rel="nofollow" id="cancel-comment-reply-link" href="index.html#respond" style="display:none;">Cancel reply</a></small></h3>
+                                    <form action="/message" method="post" id="commentform" class="comment-form" novalidate>
+                                      @csrf
+                                        <p class="comment-notes"><span id="email-notes">Your details will not be published.</span> Required fields are marked <span class="required">*</span></p>
+                                        <p class="comment-form-author"><label for="author">District <span class="required">*</span></label> <input id="author" name="district" type="text" value="" size="30" maxlength="245" required='required' /></p>
+                                        <p class="comment-form-author"><label for="author">County <span class="required">*</span></label> <input id="author" name="county" type="text" value="" size="30" maxlength="245" required='required' /></p>
+                                        <p class="comment-form-author"><label for="author">Village <span class="required">*</span></label> <input id="author" name="village" type="text" value="" size="30" maxlength="245" required='required' /></p>
+                                        <p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="name" type="text" value="" size="30" maxlength="245" required='required' /></p>
+                                        <p class="comment-form-email"><label for="email">Contact <span class="required">*</span></label> <input id="email" name="contact" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+                                        <p class="comment-form-url"><label for="url">Material (s)</label> <input id="url" name="material" type="url" value="" size="30" maxlength="200" required /></p>
+                                        <p class="comment-form-author"><label for="author">Number <span class="required">*</span></label> <input id="author" name="quantity" type="text" value="" size="30" maxlength="245" required='required' /></p>
+                                        <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Send" /> <input type='hidden' name='comment_post_ID' value='1' id='comment_post_ID' />
+                                            <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                                        </p>
+                                    </form>
+                                </div>
+                                <!-- #respond -->
+                            </div>
+                                    </div>
+                                    <!-- .edm-footer-widget-wrapper -->
+                                </div>
+                                <!-- .footer-widgets-area -->
+                            </div>
+                            <!-- .edm-container -->
                         </div>
-                        <!-- #respond -->
-                    </div>
-                </section>
+                </div>
+                <!-- .edm-container -->
             </div>
             <!-- #content -->
             @include('frontlayouts.footer')

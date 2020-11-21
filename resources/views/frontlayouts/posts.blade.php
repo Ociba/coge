@@ -2,19 +2,19 @@
     <h4 class="widget-title">Recent Posts</h4>
     <ul>
         <li>
-            <a href="../entrance-preparation-tips/index.html">Entrance preparation tips</a>
+            <a href="/post">Entrance preparation tips</a>
         </li>
         <li>
-            <a href="index.html">Mechanical Engineering</a>
+            <a href="/post">Mechanical Engineering</a>
         </li>
         <li>
-            <a href="../computer-engineering/index.html">Computer Engineering</a>
+            <a href="/post">Computer Engineering</a>
         </li>
         <li>
-            <a href="../new-admission-information/index.html">New Admission information</a>
+            <a href="/post">New Admission information</a>
         </li>
         <li>
-            <a href="../sample-post-with-threaded-comments/index.html">Sample Post With Threaded Comments</a>
+            <a href="/post">Sample Post With Threaded Comments</a>
         </li>
     </ul>
 </section>

@@ -115,6 +115,18 @@
                     </div>
                 </div>
                 <div class="edm-home-top-section edm-clearfix">
+                    <section id="education_master_cta-2" class="widget education_master_ct">
+                        <div class="edm-cta-wrapper">
+                            <div class="edm-cta-content parallax"
+                                style="background-image:url(https_/demo.themeegg.com/themes/education-master/wp-content/uploads/2018/02/slider-91.html);">
+                                <h3 class="edm-cta-heading">COGE CONSTRUCTION COMPANY LIMITED</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but...</p>
+                            </div>
+                        </div>
+                        <!-- .edm-ads-wrapper -->
+                    </section>
+                </div>
+                <div class="edm-home-top-section edm-clearfix">
                 <section id="education_master_featured_posts-2" class="widget education_master_featured_posts" style="margin-right:3%; margin-left:3%;">
                 <div class="edm-cta-wrapper">
                                 <div class="edm-block-wrapper featured-posts edm-clearfix">
@@ -502,11 +514,11 @@
                                 [{"@context":"http://schema.org","@type":"Event","name":"Inter college quiz competition","description":"&lt;p&gt;1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently [&hellip;]&lt;/p&gt;\\n","url":"https://demo.themeegg.com/themes/education-master/event/inter-college-quiz-competition/","startDate":"2021-06-13T08:00:00+00:00","endDate":"2021-06-14T17:00:00+00:00","location":{"@type":"Place","name":"Lorem Banquet","description":"","url":false,"address":{"@type":"PostalAddress","streetAddress":"Uphills, Lorem street","addressLocality":"Sydney","addressRegion":"Lorem State","postalCode":"0088877","addressCountry":"Australia"},"telephone":"9887766666","sameAs":"http://themeegg.com"},"organizer":{"@type":"Person","name":"Jon Doe","description":"","url":false,"telephone":"999999999","email":"the&#109;&#101;e&#103;&#103;o&#102;&#102;i&#99;i&#97;l&#64;&#103;&#109;&#97;&#105;l&#46;&#99;&#111;m","sameAs":"https://themeegg.com"}},{"@context":"http://schema.org","@type":"Event","name":"Parents Day for new students","description":"&lt;p&gt;1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently [&hellip;]&lt;/p&gt;\\n","url":"https://demo.themeegg.com/themes/education-master/event/parents-day-for-new-students/","startDate":"2024-05-17T08:00:00+00:00","endDate":"2024-05-17T17:00:00+00:00","location":{"@type":"Place","name":"Lorem Banquet","description":"","url":false,"address":{"@type":"PostalAddress","streetAddress":"Uphills, Lorem street","addressLocality":"Sydney","addressRegion":"Lorem State","postalCode":"0088877","addressCountry":"Australia"},"telephone":"9887766666","sameAs":"http://themeegg.com"},"organizer":{"@type":"Person","name":"Jon Doe","description":"","url":false,"telephone":"999999999","email":"t&#104;e&#109;&#101;egg&#111;f&#102;ic&#105;al&#64;&#103;m&#97;&#105;l.&#99;om","sameAs":"https://themeegg.com"}},{"@context":"http://schema.org","@type":"Event","name":"New Year Eve","description":"&lt;p&gt;1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently [&hellip;]&lt;/p&gt;\\n","url":"https://demo.themeegg.com/themes/education-master/event/new-year-eve/","startDate":"2025-01-01T00:00:00+00:00","endDate":"2025-01-01T23:59:59+00:00","location":{"@type":"Place","name":"Lorem Banquet","description":"","url":false,"address":{"@type":"PostalAddress","streetAddress":"Uphills, Lorem street","addressLocality":"Sydney","addressRegion":"Lorem State","postalCode":"0088877","addressCountry":"Australia"},"telephone":"9887766666","sameAs":"http://themeegg.com"},"organizer":{"@type":"Person","name":"Jon Doe","description":"","url":false,"telephone":"999999999","email":"t&#104;e&#109;e&#101;&#103;&#103;offi&#99;&#105;&#97;l&#64;gm&#97;&#105;l.&#99;&#111;&#109;","sameAs":"https://themeegg.com"},"offers":{"@type":"Offer","price":"10","url":"https://demo.themeegg.com/themes/education-master/event/new-year-eve/"}}]
                             </script>
                             <section id="tag_cloud-2" class="widget widget_tag_cloud">
-                                <h4 class="edm-block-title">Tags</h4>
-                                <div class="tagcloud"><a href="tag/entrance/index.html" class="tag-cloud-link tag-link-9 tag-link-position-1" style="font-size: 8pt;" aria-label="entrance (1 item)">entrance</a>
-                                    <a href="tag/example/index.html" class="tag-cloud-link tag-link-11 tag-link-position-2" style="font-size: 8pt;" aria-label="example (1 item)">example</a>
-                                    <a href="tag/post/index.html" class="tag-cloud-link tag-link-10 tag-link-position-3" style="font-size: 8pt;" aria-label="post (1 item)">post</a>
-                                    <a href="tag/student/index.html" class="tag-cloud-link tag-link-14 tag-link-position-4" style="font-size: 8pt;" aria-label="student (1 item)">student</a>
+                                <h4 class="edm-block-title">Do You Have These Materials ?</h4>
+                                <div class="tagcloud"><a href="/materials" class="tag-cloud-link tag-link-9 tag-link-position-1" style="font-size: 8pt;" aria-label="entrance (1 item)">Bricks</a>
+                                    <a href="/materials" class="tag-cloud-link tag-link-11 tag-link-position-2" style="font-size: 8pt;" aria-label="example (1 item)">Stones</a>
+                                    <a href="/materials" class="tag-cloud-link tag-link-10 tag-link-position-3" style="font-size: 8pt;" aria-label="post (1 item)">Sand</a>
+                                    <a href="/materials" class="tag-cloud-link tag-link-14 tag-link-position-4" style="font-size: 8pt;" aria-label="student (1 item)">Timber | Poles</a>
                                 </div>
                             </section>
                             <section id="education_master_featured_posts-3" class="widget education_master_featured_posts">
@@ -666,7 +678,7 @@
                                                 <div class="edm-comment-avatar"><img alt='' src='https://secure.gravatar.com/avatar/6d404589a4da6d1168fc7fcab5b182d5?s=55&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/6d404589a4da6d1168fc7fcab5b182d5?s=110&#038;d=mm&#038;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' /></div>
                                                 <div class="edm-comment-desc-wrap">
                                                     <strong>text to speech converter online</strong>
-                                                    &nbsp;commented on                                        <a href="/architecture" rel="external nofollow" title="Sample Post With Threaded Comments"> Sample Post With Threaded Comments</a>: magnificent publish, very informative. I wonder wh                                    
+                                                    &nbsp;commented on                                        <a href="/architecture" rel="external nofollow" title="Sample Post With Threaded Comments"> Sample Post With Threaded Comments</a>: magnificent publish,                                   
                                                 </div>
                                                 <!-- .edm-comment-desc-wrap -->
                                             </li>
@@ -682,15 +694,7 @@
                                                 <div class="edm-comment-avatar"><img alt='' src='https://secure.gravatar.com/avatar/b48ecf0b00eb0e430d76e2d249896f1e?s=55&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/b48ecf0b00eb0e430d76e2d249896f1e?s=110&#038;d=mm&#038;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' /></div>
                                                 <div class="edm-comment-desc-wrap">
                                                     <strong>Onlinetexttospeech.Com</strong>
-                                                    &nbsp;commented on                                        <a href="/architecture" rel="external nofollow" title="Sample Post With Threaded Comments"> Sample Post With Threaded Comments</a>: Hey there! I'm at work browsing your blog from my                                    
-                                                </div>
-                                                <!-- .edm-comment-desc-wrap -->
-                                            </li>
-                                            <li class="edm-single-comment edm-clearfix">
-                                                <div class="edm-comment-avatar"><img alt='' src='https://secure.gravatar.com/avatar/361523387a42aa8a0442825e023be322?s=55&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/361523387a42aa8a0442825e023be322?s=110&#038;d=mm&#038;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' /></div>
-                                                <div class="edm-comment-desc-wrap">
-                                                    <strong>iqeradopobos</strong>
-                                                    &nbsp;commented on                                        <a href="#" rel="external nofollow" title="Computer Engineering"> Computer Engineering</a>: [url=http://mewkid.net/when-is-xuxlya/]Amoxicillin                                    
+                                                    &nbsp;commented on                                        <a href="/architecture" rel="external nofollow" title="Sample Post With Threaded Comments"> Sample Post With Threaded Comments</a>                                   
                                                 </div>
                                                 <!-- .edm-comment-desc-wrap -->
                                             </li>

@@ -4,7 +4,7 @@
             <div class="edm-container">
                 <div class="site-branding">
                 <div class="site-logo">
-                    <a href="#" class="custom-logo-link" rel="home" itemprop="url"><img style="border-radius:50%; width:70px; height:70px;" src="{{asset('img/llogo.jpg')}}" class="custom-logo" alt="Education Master" itemprop="logo" /></a>				
+                    <a href="#" class="custom-logo-link" rel="home" itemprop="url"><img style="border-radius:50%; width:60px; height:60px;" src="{{asset('img/llogo.jpg')}}" class="custom-logo" alt="Education Master" itemprop="logo" /></a>				
                 </div>
                     <!-- .site-logo -->
                     <p class="site-title"><a href="index.html"
@@ -18,9 +18,10 @@
                         <div class="menu-primary-menu-container">
                             <ul id="primary-menu" class="menu">
                                 <li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-51"><a href="/">Home</a></li>
-                                <li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="/about">About Us</a></li>
-                                <li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-82">
-                                    <a href="#">Services</a>
+                                <li id="menu-item-50" class="menu menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="/about">About Us</a></li>
+                                <li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-page menu-item-82">
+                                    <a href="/services">Services</a>
+                                    {{--
                                     <ul class="sub-menu">
                                         <li id="menu-item-112" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-112"><a href="/construction">General Construction</a></li>
                                         <li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-113"><a href="/architecture">House Plan Drawing</a></li>
@@ -35,6 +36,7 @@
                                         <li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-115"><a href="/microfinance">Microfinance</a></li>
                                         <li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat menu-item-115"><a href="/general-supplies">Supplies & Services</a></li>
                                     </ul>
+                                    --}}
                                 </li>
                                 <li id="menu-item-110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110"><a href="/projects">Projects</a></li>
                                 <li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="/blog">Blog</a></li>

@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="https://gmpg.org/xfn/11">
-        <title>COGO Construction Company (U) Limited</title>
+        @include('frontlayouts.title')
         <meta name="tec-api-version" content="v1">
         <meta name="tec-api-origin" content="https://demo.themeegg.com/themes/education-master">
         <link rel="https://theeventscalendar.com/" href="wp-json/tribe/events/v1/index.html" />
@@ -34,8 +34,8 @@
          @include('frontlayouts.topbar')
          @include('frontlayouts.menu')
             <div id="content" class="site-content">
-                <div class="edm-container">
-                    <div class="edm-home-middle-section edm-clearfix" style="margin-top:20px;">
+                <div class="edm-container" style="margin-top:30px;">
+                    <div class="edm-home-middle-section edm-clearfix">
                        <h1 style="text-align: center;">projects</h1>
                         <div class="middle-primary" style="width:100%;">
                             <section id="education_master_carousel-2" class="widget education_master_carousel">
@@ -137,7 +137,7 @@
                                                 </div>
                                                 <!-- .edm-post-thumb -->
                                                 <div class="edm-post-content">
-                                                    <h3 class="edm-post-title small-size"><a href="entrance-preparation-tips/index.html">Entrance preparation tips</a></h3>
+                                                    <h3 class="edm-post-title small-size"><a href="entrance-preparation-tips/index.html">Labaratory</a></h3>
                                                 </div>
                                                 <!-- .edm-post-content -->
                                             </div>
@@ -153,7 +153,7 @@
                                                 </div>
                                                 <!-- .edm-post-thumb -->
                                                 <div class="edm-post-content">
-                                                    <h3 class="edm-post-title small-size"><a href="mechanical-engineering/index.html">Mechanical Engineering</a></h3>
+                                                    <h3 class="edm-post-title small-size"><a href="mechanical-engineering/index.html">1 Lecture Block</a></h3>
                                                     </div>
                                                 <!-- .edm-post-content -->
                                             </div>
@@ -169,7 +169,7 @@
                                                 </div>
                                                 <!-- .edm-post-thumb -->
                                                 <div class="edm-post-content">
-                                                    <h3 class="edm-post-title small-size"><a href="computer-engineering/index.html">Computer Engineering</a></h3>
+                                                    <h3 class="edm-post-title small-size"><a href="computer-engineering/index.html">Office</a></h3>
                                                     
                                                 </div>
                                                 <!-- .edm-post-content -->
@@ -186,7 +186,7 @@
                                                 </div>
                                                 <!-- .edm-post-thumb -->
                                                 <div class="edm-post-content">
-                                                    <h3 class="edm-post-title small-size"><a href="new-admission-information/index.html">New Admission information</a></h3>
+                                                    <h3 class="edm-post-title small-size"><a href="new-admission-information/index.html">Admission Block</a></h3>
                                                     
                                                 </div>
                                                 <!-- .edm-post-content -->

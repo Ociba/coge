@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="https://gmpg.org/xfn/11">
-        <title>Construction &#8211; Education Master</title>
+        @include('frontlayouts.title')
         <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
         <link rel='dns-prefetch' href='http://s.w.org/' />
         <link rel="alternate" type="application/rss+xml" title="Education Master &raquo; Feed" href="../feed/index.html" />
@@ -44,7 +44,7 @@
             @include('frontlayouts.menu')
             <div id="content" class="site-content">
                 <div class="edm-container">
-                    <div id="primary" class="content-area" style="margin-top:5px;">
+                    <div id="primary" class="content-area" style="margin-top:20px;">
                         <main id="main" class="site-main" role="main">
                             <article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
                                 <div class="edm-article-thumb">
